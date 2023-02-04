@@ -18,6 +18,7 @@ private:
 public:
 	void write_csv(std::string filename, std::vector<std::pair<std::string, std::vector<int>>> dataset);
 	std::vector<std::pair<std::string, std::vector<int>>> read_csv(std::string filename);
+	std::vector<std::pair<std::string, std::vector<std::string>>> str_read_csv(std::string filename);
 	int main();
 };
 
